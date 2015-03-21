@@ -1,0 +1,9 @@
+{
+  "name": "iot-blinker-example",
+  "version": "0.0.1",
+  "description": "a simple remotely controlled blinker script for testing IoT technologies",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.5"
+  }
+}
