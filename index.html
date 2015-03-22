@@ -18,8 +18,12 @@
 	<body>
 			<script src="/socket.io/socket.io.js"></script>
 			<script>
+				function gen_random_color() {
+					return Math.round(Math.random() * 0xffffff).toString(16)
+				}
+				
 				function blink_screen() {
-					document.body.bgColor = 'red';
+					document.body.bgColor = gen_random_color();
 
 					setTimeout(function() {
 						document.body.bgColor = 'white';
